@@ -1,0 +1,216 @@
+/* (General Styling). For the entire page */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper { background-image: url(images/background.png);
+		   background-size: cover;
+ 	       background-color: white;
+ 	       color: #242D56; 
+		   font-family: system-ui, sans-serif;
+	       text-align: center;
+}
+
+h1 { font-size: 35px; }
+
+
+p { font-size: 14.4px; color: gray; }
+
+
+button { border: none; 
+		 background: #F3633F; 
+		 color: white; 
+		 border-radius: 18px; 
+		 padding: 10px 20px; 
+		 font-size: 11px; 
+		 letter-spacing: 0.5px; 
+		 box-shadow: 0 1px 5px #F3633F;
+}
+
+button:hover { cursor: pointer; background-color: #CC5132; }
+
+
+
+
+
+/* Styling for the Top/Head section of the page. */
+.header { float: left; 
+		  width: 100%; 
+		  height: auto; 
+		  margin: 50px 0;
+}
+
+.header .left, .header .right { margin: 0 150px; }
+
+.header .left { float: left; 				 
+				letter-spacing: 0.5px; 
+}
+
+
+.header .middle { float: left; min-width: 40%; }
+
+.header .middle ul { list-style: none; }
+
+.header .middle li { display: inline; 
+			 	     margin: 0 17px;
+}
+
+.header .middle li a { color: gray;
+		       	 	   font-size: 13.5px;
+			   		   text-decoration: none;
+}
+
+.header .middle li:hover { padding-bottom: 10px;
+			               border-bottom: 2px solid gray; 
+} 
+
+.header .right { float: right; }
+
+
+
+
+
+/* Styling for Main/1st Content of the page. */
+.first-content { float: left; 
+		   	     width: 100%;
+		   	     height: auto; 
+		   	     margin: 50px 0;		   
+}
+
+.first-content .left, .first-content .right { margin: 0 140px; }
+
+.first-content .right { float: right; opacity: 0.9; }
+
+
+.first-content .left { float: left;
+				       width: 300px;
+		               text-align: left;
+}
+
+
+
+
+
+/* Styling for Main/2nd Content of the page. */
+.second-content { float: left; 
+		   	      width: 100%;
+		   	      height: auto; 
+		   	      margin: 20px 0;		   
+}
+
+.second-content .left, .second-content .right { margin: 0 140px; }
+
+.second-content .right { float: right; 
+						 width: 350px;
+						 text-align: left;
+}
+
+.second-content .right h4 { font-size: 15px; }
+
+.second-content .right span { padding: 4px 15px; 
+							  margin-right: 15px; 
+							  background: #F3633F; 
+							  color: white; 
+							  border-radius: 15px;
+							  font-size: 13px; 
+}
+
+.second-content .right p { padding-left: 65px; font-size: 14px; }
+
+.second-content .left { float: left;
+				        width: 380px;
+		                text-align: left;
+} 
+
+
+
+
+
+/* Styling for Main/3rd Content of the page. */
+.third-content { float: left;
+				 width: 100%;
+				 height: auto;
+				 margin: 50px 0;
+}
+
+.third-content h1 { font-size: 30px; }
+
+.third-content img { width: 110px; 
+				     height: auto;
+
+					 padding: 5px 0;				     
+}
+
+.third-content .left, .third-content .middle, .third-content .right { display: inline-block; 
+																	  width: 380px;
+																	  height: auto; 
+																	  background: #F4F4F4; 
+																	  margin: 10px;
+																	  padding: 0 20px 30px 20px; 
+}
+
+
+
+
+
+/* Styling for Main/3rd Content of the page. */
+.fourth-content { float: left;
+				  width: 100%;
+				  height: 200px;
+				  background-image: url(images/banner.png);
+				  background-size: cover;
+}
+
+.fourth-content h1 { float: left; 
+					 width: 400px;
+					 margin: 55px 0 0 120px; 
+					 color: white; 
+					 font-size: 32px;
+					 text-align: left; 
+}
+
+.fourth-content button { float: right;
+						 background-color: white; 
+					     color: #F3633F; 
+					     margin: 90px 170px 0 0;
+}
+
+.fourth-content button:hover { background: lightgray; color: gray; }
+
+
+
+
+
+/* Styling for Foot section of the page. */
+.footer { float: left;
+		  width: 100%;
+		  height: auto;
+		  background: #1E1E26;
+		  text-align: left;
+		  padding: 30px;
+		  letter-spacing: 0.6px;
+}
+
+.footer .one, .footer .two, .footer .three, .footer .four { display: inline-block; margin: 0 100px; }
+
+.footer .one h3, .footer .four input { color: white; margin-bottom: 55px; }
+
+.footer .one:hover { cursor: pointer; }
+
+
+.footer .two ul, .footer .three ul { list-style: none; }
+
+.footer .two li, .footer .three li { display: block; margin: 5px 0; }
+
+.footer .two li a, .footer .three li a { color: gray; font-size: 14px; text-decoration: none; }
+
+.footer .two li:hover, .footer .three li:hover { text-decoration: underline; } 
+
+
+.footer .four input { border: none; width: 200px; padding: 10px 0; border-radius: 18px; color: gray; text-indent: 10px; font-size: 13px; }
+
+.footer .four button { box-shadow: none; }
+
+.footer .four p { font-size: 12px; }
